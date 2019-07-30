@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<header>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</header>
+
+<body onload="getItems()">
+    <ul>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+
+
+    <div class="formDiv">
+            <h2>Create an Post</h2>
+            <form onsubmit="createItem()">
+    
+                <br><br>
+                <label for="accUsername" id="accUsernameLabel">Username: </label>
+                <input type="text" id="accUsername" class="form-control" name="accUsername" required>
+                <br>
+                <label for="accEmail" id="accEmailLable">Email: </label>
+                <input type="email" id="accEmail" class="form-control" name="accEmail" required>
+                <br>
+                <label for="accContent" id="accContentLable">content: </label>
+                <input type="content" id="accContent" class="form-control" name="accContent" required>
+                <br>
+    
+                 <input type="submit" class="btn btn-primary" value="Sign up">
+                <p id="systemResponse2">
+                </p> 
+            </form>
+        </div>
+
+    <div id="random">
+
+    </div>
+
+<script src='getall.js'></script>
+<script src='Create.js'></script>
+
+</body>
+
+</html>

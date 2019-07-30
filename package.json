@@ -1,0 +1,24 @@
+{
+  "name": "discussion-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.6",
+    "router": "^1.3.3",
+    "routes": "^2.1.0",
+    "validate.js": "^0.13.1",
+    "validator": "^11.1.0"
+  }
+}
